@@ -1,0 +1,36 @@
+cd
+ls
+mkdir
+rm -rf
+cat
+-a: mostra arquivos ocultos
+mv: para mover arquivos
+
+sha1 - criptografia unica de um arquivo
+
+commit > tree > blob
+
+git init: cria um repositorio
+git add: move de untracked para staged
+git commit: cria um snapshot dos arquivos, que passam de staged e voltam para unmodified
+
+diretorio de trabalho -> area de stage -> respositorio local
+
+tracked: quando está unmodified, modified ou staged
+untracked: git não sabe de sua existência
+
+unmodified: arquivo no git que não foi modificado
+modified:
+staged: onde ficam os arquivos que estão "se preparando" para fazer parte de outro grupo; pre commit
+
+repositorio local: sua máquina
+repositorio remoto: servidor
+
+git remote add origin /endereço/: adiciona os arquivos no repositorio
+
+git push origin master
+git pull origin master
+
+git clone endereço: para clonar um repositorio
+
+git remote -v
